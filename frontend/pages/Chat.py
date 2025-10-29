@@ -94,7 +94,7 @@ with st.sidebar:
     
     st.markdown("---")
     
-    st.header("💡 Quick Questions")
+    st.header("Quick Questions")
     st.caption("Click to ask:")
     
     quick_questions = [
@@ -107,7 +107,7 @@ with st.sidebar:
     ]
     
     for question in quick_questions:
-        if st.button(f"📌 {question}", key=question, use_container_width=True):
+        if st.button(f"{question}", key=question, use_container_width=True):
             st.session_state.messages.append({
                 "role": "user",
                 "content": question,
