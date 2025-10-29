@@ -1,0 +1,192 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Budi Santoso",
+      "email": "budi.santoso@email.com",
+      "status": "Active",
+      "plan": "Premium",
+      "joined_date": "2024-01-15",
+      "last_activity": "2025-10-28"
+    },
+    {
+      "id": 2,
+      "name": "Sari Wijaya",
+      "email": "sari.wijaya@email.com",
+      "status": "Inactive",
+      "plan": "Basic",
+      "joined_date": "2024-03-20",
+      "last_activity": "2025-08-10"
+    },
+    {
+      "id": 3,
+      "name": "Ahmad Rizki",
+      "email": "ahmad.rizki@email.com",
+      "status": "Active",
+      "plan": "Premium",
+      "joined_date": "2024-05-10",
+      "last_activity": "2025-10-29"
+    },
+    {
+      "id": 4,
+      "name": "Dewi Lestari",
+      "email": "dewi.lestari@email.com",
+      "status": "Active",
+      "plan": "Standard",
+      "joined_date": "2024-07-22",
+      "last_activity": "2025-10-27"
+    },
+    {
+      "id": 5,
+      "name": "Eko Prasetyo",
+      "email": "eko.prasetyo@email.com",
+      "status": "Active",
+      "plan": "Premium",
+      "joined_date": "2024-02-11",
+      "last_activity": "2025-10-29"
+    },
+    {
+      "id": 6,
+      "name": "Fitri Handayani",
+      "email": "fitri.h@email.com",
+      "status": "Inactive",
+      "plan": "Basic",
+      "joined_date": "2023-11-05",
+      "last_activity": "2025-07-15"
+    },
+    {
+      "id": 7,
+      "name": "Gunawan Setiawan",
+      "email": "gunawan.s@email.com",
+      "status": "Active",
+      "plan": "Standard",
+      "joined_date": "2024-06-18",
+      "last_activity": "2025-10-28"
+    },
+    {
+      "id": 8,
+      "name": "Heni Kusuma",
+      "email": "heni.kusuma@email.com",
+      "status": "Active",
+      "plan": "Premium",
+      "joined_date": "2024-04-25",
+      "last_activity": "2025-10-29"
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "user": "Rina Marlina",
+      "email": "rina.m@email.com",
+      "rating": 3,
+      "comment": "Layanan customer service agak lambat merespon",
+      "category": "Customer Service",
+      "date": "2025-10-25",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "user": "Tono Wijaya",
+      "email": "tono.w@email.com",
+      "rating": 5,
+      "comment": "Sangat puas dengan fitur-fitur yang tersedia!",
+      "category": "Product Features",
+      "date": "2025-10-27",
+      "status": "Resolved"
+    },
+    {
+      "id": 3,
+      "user": "Linda Susanti",
+      "email": "linda.s@email.com",
+      "rating": 4,
+      "comment": "Aplikasi stabil dan mudah digunakan",
+      "category": "User Experience",
+      "date": "2025-10-26",
+      "status": "Resolved"
+    },
+    {
+      "id": 4,
+      "user": "Bambang Hartono",
+      "email": "bambang.h@email.com",
+      "rating": 2,
+      "comment": "Harga terlalu mahal untuk fitur yang diberikan",
+      "category": "Pricing",
+      "date": "2025-10-23",
+      "status": "Under Review"
+    },
+    {
+      "id": 5,
+      "user": "Citra Ayu",
+      "email": "citra.ayu@email.com",
+      "rating": 5,
+      "comment": "Tim support sangat membantu dan responsif",
+      "category": "Customer Service",
+      "date": "2025-10-28",
+      "status": "Resolved"
+    },
+    {
+      "id": 6,
+      "user": "Dedi Kurniawan",
+      "email": "dedi.k@email.com",
+      "rating": 3,
+      "comment": "Perlu ada tutorial yang lebih lengkap",
+      "category": "Documentation",
+      "date": "2025-10-24",
+      "status": "Pending"
+    },
+    {
+      "id": 7,
+      "user": "Endang Rahayu",
+      "email": "endang.r@email.com",
+      "rating": 4,
+      "comment": "Fitur analytics sangat membantu untuk bisnis saya",
+      "category": "Product Features",
+      "date": "2025-10-29",
+      "status": "Resolved"
+    },
+    {
+      "id": 8,
+      "user": "Fajar Nugroho",
+      "email": "fajar.n@email.com",
+      "rating": 2,
+      "comment": "Aplikasi sering crash di mobile",
+      "category": "Technical Issue",
+      "date": "2025-10-22",
+      "status": "In Progress"
+    }
+  ],
+  "analytics": {
+    "total_customers": 8,
+    "active_customers": 6,
+    "inactive_customers": 2,
+    "customers_by_plan": {
+      "Premium": 4,
+      "Standard": 2,
+      "Basic": 2
+    },
+    "total_feedback": 8,
+    "average_rating": 3.5,
+    "feedback_by_category": {
+      "Customer Service": 2,
+      "Product Features": 2,
+      "User Experience": 1,
+      "Pricing": 1,
+      "Documentation": 1,
+      "Technical Issue": 1
+    },
+    "monthly_stats": {
+      "october_2025": {
+        "new_customers": 0,
+        "active_users": 6,
+        "total_feedback": 8,
+        "avg_rating": 3.5
+      },
+      "september_2025": {
+        "new_customers": 0,
+        "active_users": 7,
+        "total_feedback": 5,
+        "avg_rating": 4.0
+      }
+    }
+  }
+}
